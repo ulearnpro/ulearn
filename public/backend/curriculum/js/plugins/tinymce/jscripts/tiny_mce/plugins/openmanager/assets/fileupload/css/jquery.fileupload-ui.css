@@ -1,0 +1,175 @@
+@charset 'UTF-8';
+/*
+ * jQuery File Upload UI Plugin CSS 6.3
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2010, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin-right: 4px;
+}
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  border: solid transparent;
+  border-width: 0 0 100px 200px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -moz-transform: translate(-300px, 0) scale(4);
+  direction: ltr;
+  cursor: pointer;
+}
+.fileupload-buttonbar .btn,
+.fileupload-buttonbar .toggle {
+  margin-bottom: 5px;
+}
+.files .progress {
+  width: 200px;
+}
+.progress-animated .bar {
+  background: url(../img/progressbar.gif) !important;
+  filter: none;
+}
+.fileupload-loading {
+  position: absolute;
+  left: 50%;
+  width: 128px;
+  height: 128px;
+  background: url(../img/loading.gif) center no-repeat;
+  display: none;
+}
+.fileupload-processing .fileupload-loading {
+  display: block;
+}
+
+/* Fix for IE 6: */
+*html .fileinput-button {
+  line-height: 22px;
+  margin: 1px -3px 0 0;
+}
+
+/* Fix for IE 7: */
+*+html .fileinput-button {
+  margin: 1px 0 0 0;
+}
+
+.files .name, .files .size, .files .preview
+{
+	position:relative;
+	vertical-align:middle;
+	overflow: hidden;
+	word-break:break-all;
+	padding:3%;
+}
+.files .size
+{
+	padding:3% 0;
+}
+.files .preview
+{
+	padding:8px;
+}
+.table.table-striped
+{
+	margin-top:2%;
+}
+
+@media (max-width: 480px) {
+  .files .btn span {
+    display: none;
+  }
+  .files .preview * {
+    width: 40px;
+  }
+  .files .name * {
+    width: 80px;
+    display: inline-block;
+    word-wrap: break-word;
+  }
+  .files .progress {
+    width: 20px;
+  }
+  .files .delete {
+    width: 60px;
+  }
+}
+
+
+body
+{
+	padding:20px;
+	font-size:12px;
+	background:#efefef;
+}
+
+.table th, .table td
+{
+	font-size:12px;
+}
+
+
+.nav
+{
+	margin-bottom:0;
+}
+
+.tab-content
+{
+	background-color:#fff;
+	border:1px solid #dddddd;
+	border-top:0;
+	padding-bottom:20px;
+	position:relative;
+	padding:20px;
+	width:640px;
+}
+.tab-content .cmask, .tab-content .cmask .cpage
+{
+	width:640px;
+	position:relative;
+	height:262px;
+	overflow:hidden;
+
+
+}
+#gallery
+{
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	width:3200px;
+}
+.tab-content .cmask .cpage
+{
+	border:none;
+	float:left;
+	background: url(../img/loading.gif) center no-repeat;
+}
+.span5 
+{
+	margin-left:0;
+	width:100%;
+}
+
+.files td
+{
+	background-color: #eeeeee!important;
+}
+
+.btn-primary,.btn-primary:hover,.btn-warning,.btn-warning:hover,.btn-danger,.btn-danger:hover,.btn-success,.btn-success:hover,.btn-info,.btn-info:hover,.btn-inverse,.btn-inverse:hover,.btn-cancel,.btn-cancel:hover,.btn-function,.btn-function:hover{color:#ffffff;text-shadow:0 -1px 0 rgba(0, 0, 0, 0.25);}
+.btn-primary.active,.btn-warning.active,.btn-danger.active,.btn-success.active,.btn-info.active,.btn-inverse.active,.btn-cancel.active,.btn-function.active{color:rgba(255, 255, 255, 0.75);}
+
+.btn-function{text-shadow:none; color:#333333;background-color:#dddddd;*background-color:#cccccc;background-image:-ms-linear-gradient(top, #ffffff, #dddddd);background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#dddddd));background-image:-webkit-linear-gradient(top, #ffffff, #dddddd);background-image:-o-linear-gradient(top, #ffffff, #dddddd);background-image:-moz-linear-gradient(top, #ffffff, #dddddd);background-image:linear-gradient(top, #ffffff, #dddddd);background-repeat:repeat-x;border-color:#dddddd #dddddd #dddddd;border-color:rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.25);filter:progid:dximagetransform.microsoft.gradient(startColorstr='#ffffff', endColorstr='#dddddd', GradientType=0);filter:progid:dximagetransform.microsoft.gradient(enabled=false);}
+.btn-function:hover,.btn-function:active,.btn-function.active,.btn-function.disabled,.btn-function[disabled]{background-color:#dddddd;*background-color:#ff0000; color:#333333;text-shadow:0 -1px 0 rgba(255, 255, 255, 0.25);}
+.btn-function:active,.btn-function.active{background-color:#dddddd \9;}
