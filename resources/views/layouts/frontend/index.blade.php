@@ -133,7 +133,7 @@
                 <img src="{{ asset('frontend/img/logo_footer.png') }}" class="img-fluid" width="210" height="48">
                 <br>
                 <span id="c-copyright">
-                    Copyright © 2018, Ulearn. All rights reserved.
+                    Copyright © 2019, Ulearn. All rights reserved.
                 </span>
             </div>
         </div>
@@ -305,98 +305,4 @@
         });
     </script>
     @yield('javascript')
-
-<!-- reset demo code start -->
-<style>
-
-.reset_notification {
-  position:fixed;
-  left: 50%;
-  margin: 0 0 0 -140px;
-  text-align: center;
-  top: 0;
-  width: 250px;
-  z-index: 1030;
-}
-
-#countdownToMidnight {
-  background: green none repeat scroll 0 0;
-  color: #ffffff;
-  display: block;
-  font: 13px Arial,Helvetica,sans-serif;
-  margin: 0 auto;
-  padding: 2px;
-  width: 250px;
-}
-</style>
-
-<script>
-var demo_reset_domain = '{!! url("getCheckTime") !!}';
-function initJQuery() {
-  $(function() {
-    check_demo_reset();
-  });
-}
-initJQuery();
-
-function check_demo_reset(){
-if($('.reset_notification').length==0){
-$('body').append('<div class="reset_notification"><span id="countdownToMidnight"><span>This demo will reset in </span><span class="reset_timer_time">-- : -- : --</span></span></div>');
-}
-
-$.get( demo_reset_domain, function( data ) {
-var left_time = parseInt(data);
-if(left_time>0){
-
-setTimeout(function(){
-display_timer(left_time-1);
-}, 1000);
-
-setTimeout("reload_page()", 1000*(left_time+1));
-} else {
-reload_page();
-}
-
-});
-}
-
-function display_timer(left_time){
-$('.reset_notification').html('<span id="countdownToMidnight"><span>This demo will reset in </span><span class="reset_timer_time">'+reset_secondsToHms(left_time)+'</span></span>');
-setTimeout(function(){
-display_timer(left_time-1);
-}, 1000);
-}
-
-
-function reload_page(){
-$('.reset_notification').hide();
-$.get(demo_reset_domain, function( data ) {
-setTimeout("reset_reload_final_func()", 1000);
-});
-}
-
-
-function reset_reload_final_func(){
-document.location.href=document.location.href;
-}
-
-
-
-function reset_secondsToHms(d) {
-d = Number(d);
-var h = Math.floor(d / 3600);
-var m = Math.floor(d % 3600 / 60);
-var s = Math.floor(d % 3600 % 60);
-return ((h > 0 ? h + ":" + (m < 10 ? "0" : "") : "") + m + ":" + (s < 10 ? "0" : "") + s);
-}
-</script>
-
-
-<div class="reset_notification">
-  <span id="countdownToMidnight">
-    <span>This demo will reset in </span>
-    <span class="reset_timer_time">-- : -- : --</span>
-  </span>
-</div>
-<!-- reset demo code end -->
 </html>
