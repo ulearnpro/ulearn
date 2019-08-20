@@ -1,4 +1,5 @@
 <p align="center"><img src="https://www.ulearnpro.com/img/logo_md.png"></p>
+[![Total Downloads](https://poser.pugx.org/ulearnpro/ulearn/downloads)](https://packagist.org/packages/ulearnpro/ulearn)
 
 ## About ULEARN
 
