@@ -71,3 +71,4 @@ php artisan db:seed
 
 ## Support
 For contribution and customization supports, kindly contact us by the email ID ulearnpro@gmail.com
+Note: Kindy give us a star in github, if you like our project.
