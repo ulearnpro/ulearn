@@ -1,12 +1,15 @@
 {
-    "name": "laravel/laravel",
-    "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": [
-        "framework",
-        "laravel"
-    ],
+    "name": "ulearnpro/ulearn",
+    "description": "LMS script built on Laravel 5.8 and React JS 16.4",
+    "keywords": ["lms", "learning-management-system", "laravel", "reactjs"],
+    "homepage": "https://www.ulearnpro.com",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Yahya",
+            "email": "ulearnpro@gmail.com"
+        }
+    ],
     "require": {
         "php": "^7.1.3",
         "fideloper/proxy": "^4.0",
