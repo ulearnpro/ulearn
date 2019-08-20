@@ -25,23 +25,11 @@ ULEARN is an impressive LMS script which comprises of all the basic features tha
 ## Demo & Credentials
 Demo Link : https://www.ulearnpro.com/demo/
 
-Admin
-```sh
-Email : admin@ulearn.com
-Password : secret
-```
-
-Instructor
-```sh
-Email : instructor@ulearn.com
-Password : secret
-```
-
-Student
-```sh
-Email : student@ulearn.com
-Password : secret
-```
+|    Role       |        Email ID        |   Password    |
+| ------------- | ---------------------  | ------------- |
+|    Admin      | admin@ulearn.com       |    secret     |
+|    Instructor | instructor@ulearn.com  |    secret     |
+|    Student    | student@ulearn.com     |    secret     |
 
 ## Installation
 In the root folder, find the .env file and change the following values 
