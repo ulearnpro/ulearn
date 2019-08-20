@@ -42,7 +42,7 @@ DB_USERNAME=
 DB_PASSWORD=
 ```
 
-Through termainal, update composer to install the dependencies:
+Through terminal or command prompt, update composer to install the dependencies:
 
 ```sh
 composer update
