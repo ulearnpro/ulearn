@@ -61,3 +61,6 @@ php artisan db:seed
 
 ## Support
 For contribution and customization supports, kindly contact us by the email ID ulearnpro@gmail.com
+
+## License
+ULEARN is open-source software licensed under the MIT License.
