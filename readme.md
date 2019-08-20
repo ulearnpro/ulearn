@@ -1,5 +1,10 @@
 <p align="center"><img src="https://www.ulearnpro.com/img/logo_md.png"></p>
-[![Total Downloads](https://poser.pugx.org/ulearnpro/ulearn/downloads)](https://packagist.org/packages/ulearnpro/ulearn)
+<p align="center">
+  <a href="https://packagist.org/packages/ulearnpro/ulearn"><img src="https://poser.pugx.org/ulearnpro/ulearn/d/total.svg" alt="Total Downloads"></a>
+  <a href="https://packagist.org/packages/ulearnpro/ulearn"><img src="https://poser.pugx.org/ulearnpro/ulearn/license.svg" alt="License"></a>
+  <a href="https://ko-fi.com/G2G311PPB"><img src="https://www.ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"></a>
+</p>
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G311PPB)
 
 ## About ULEARN
 
