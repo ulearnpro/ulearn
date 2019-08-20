@@ -2,7 +2,7 @@
 
 ULEARN is an impressive LMS script which comprises of all the basic features that needed for online learning. This package includes responsive frontend website, instrucror/admin dashobard with a backend template. Admin can manage every aspect of the system, while the instructors could create creative courses through an interactive curriculum with varrious types of course files such as audio, video, document and text.
 
-#### Request: Kindy give us a star in github, if you like our project.
+#### Request: Kindy give us a star in github, if you like/clone our project.
 
 ## Key Features
 1. Laravel 5.8                        
