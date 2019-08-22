@@ -15,7 +15,7 @@
 
 ## Key Features
 1. Laravel 5.8                        
-2. React JS 16.4                       
+2. React JS 16.9                       
 3. Hi-Tech Learning                       
 4. Social Login                  
 5. Responsive Design                      
