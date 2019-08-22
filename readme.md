@@ -5,6 +5,14 @@
 </p>
 <p align="center"><a href="https://ko-fi.com/G2G311PPB"><img src="https://www.ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi"></a></p>
 
+* [About ULEARN](#about-ulearn)
+* [Key Features](#about-ulearn)
+* [Demo & Credentials](#about-ulearn)
+* [Access ReactJS Page](#access-reactjs-page)
+* [Installation](#about-ulearn)
+* [Support](#about-ulearn)
+* [License](#about-ulearn)
+
 ## About ULEARN
 
 <a href="https://www.ulearnpro.com">ULEARN</a> is an impressive LMS script which comprises of all the basic features that needed for online learning. This package includes responsive frontend website, instrucror/admin dashobard with a backend template. Admin can manage every aspect of the system, while the instructors could create creative courses through an interactive curriculum with various types of course files such as audio, video, document and text.
@@ -39,6 +47,20 @@ Demo Link : https://www.ulearnpro.com/demo/
 |    Admin      | admin@ulearn.com       |    secret     |
 |    Instructor | instructor@ulearn.com  |    secret     |
 |    Student    | student@ulearn.com     |    secret     |
+
+## Access ReactJS Page
+
+Login at the following using the student credentials, username:student@ulearn.com | password:secret
+
+```sh
+https://www.ulearnpro.com/demo/login
+```
+
+Navigate to the following link to access the course learn page directly
+
+```sh
+https://www.ulearnpro.com/demo/course-enroll/photography-become-a-better-photographer/dlhZZTZ6bmZWTGdRd3YzVWp2ZldMQT09
+```
 
 ## Installation
 In the root folder, find the .env file and change the following values 
