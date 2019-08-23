@@ -56,7 +56,7 @@ Login at the following using the student credentials, username:student@ulearn.co
 https://www.ulearnpro.com/demo/login
 ```
 
-Navigate to the following link to access the course learn page directly
+Navigate to the following link, to access the course learn page directly
 
 ```sh
 https://www.ulearnpro.com/demo/course-enroll/photography-become-a-better-photographer/dlhZZTZ6bmZWTGdRd3YzVWp2ZldMQT09
