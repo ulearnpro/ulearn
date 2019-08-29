@@ -50,7 +50,7 @@ Demo Link : https://www.ulearnpro.com/demo/
 
 ## Access ReactJS Page
 
-Login at the following using the student credentials, username:student@ulearn.com | password:secret
+Login at the following link using the student credentials, username:student@ulearn.com | password:secret
 
 ```sh
 https://www.ulearnpro.com/demo/login
