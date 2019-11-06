@@ -17,9 +17,9 @@ class Controller extends BaseController
 	{
 		$columns = array();
 		$prefix  = \DB::getTablePrefix();
-		foreach (\DB::select("SHOW COLUMNS FROM $prefix$table") as $column) {
+		foreach (\DB::getSchemaBuilder()->getColumnListing($prefix.$table) as $column) {
 		   //print_r($column);
-		    $columns[$column->Field] = '';
+		    $columns[$column] = '';
 		}
 
 		$object = (object) $columns;
