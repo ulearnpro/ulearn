@@ -18,7 +18,6 @@
 ```diff
 + Requests: 
 + 1. Kindy give us a star in github, if you like/clone our project.
-+ 2. Please donate for hosting to make the site live
 ```
 
 ## Key Features
